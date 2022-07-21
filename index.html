@@ -1,3 +1,6 @@
+
+
+
 <!DOCTYPE html>
 <html lang="en" >
 
@@ -52,7 +55,7 @@ body{
 #Home{
   padding-top:50px;
   height:500px;
-  color:
+  
 }
 
 #About{
@@ -187,11 +190,11 @@ padding-bottom:50px;
   display: block;
 		border-radius: 15%;
 		width: 200px;
-		height: 70%;
+		height: 5%;
 		margin: 0 auto;
 }
 .img{
-  margin-top:100px;;
+  margin-top:50px;
   margin-bottom:20px;
   
 }
@@ -206,6 +209,8 @@ div h2 {
 		padding-top: 5px;
     font-family: Verdana, sans-serif;
 	}
+  A:hover { COLOR: white; transition: 1sec;}
+  
 
 	div h2 span {
 		display: block;
@@ -217,6 +222,27 @@ div h2 {
 		letter-spacing: 0.2em;
     
 	}
+  a {
+  outline: none;
+  text-decoration: none;
+  padding: 2px 1px 0;
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: rgb(255, 0, 255);
+}
+
+a:focus, a:hover {
+  border-bottom: 2px solid;
+}
+
+a:active {
+  color: gold;
+}
 
 /*---Card---*/
 blockquote{
@@ -381,10 +407,13 @@ kbd{
           <div class="row">
             <div class="col-md-4"></div>
             <div class="col-md-4">
-              <form method="get" action="CV_Ian_Zammit.PDF">
-                <a href="./Images/CV_Ian_Zammit.pdf" download="CV_Ian_Zammit" class="nadir-btn nadir-btn-purple">CV Download</a><span class="nadir-text-white"> </span>
+              <form method="get" action="../CV_Ian_Zammit.pdf" >
+                <button class="btn-glow">CV Download</button>   
               </form>
-             
+              <br>
+              <form method="get" action="../LetterOfReferences.pdf">
+                <button class="btn-glow2">Letter References</button>
+              </form>
               <style>
    
               </style>
@@ -411,7 +440,7 @@ kbd{
           Greetings I was a student studying at the  <strong>Institute Of Information Communication Technology</strong> </strong> with <strong>Mcast</strong> . 
           In 2022 I have finished my Bachleor Degree in  <strong>Multimedia Software Development.</strong><br>
             <br> Currently I am doing a work experience with the company <strong>RIFF Film Festival</strong> in Iceland Reykjavik. I am incharge of website changes with 
-          with wordpress elementor platform. I have started this experience in 3 July 2022 till 14 October 2022.<br><br>My lastest work was with the <strong>KNZ</strong> group where in this field of work I was introduced to wordpress and elementor front end, while also I have improved there website both in visual design, functionallity with regards to the performance, also with my previous personal experience, I have created Animated GIFs as they can be seen here. <strong><a href="../HTML/GIFPage.html">GIF'S Created</a></strong>
+          with wordpress elementor platform. I have started this experience in 3 July 2022 till 14 October 2022.<br><br>My lastest work was with the <strong>KNZ</strong> group where in this field of work I was introduced to wordpress and elementor front end, while also I have improved there website both in visual design, functionallity with regards to the performance, also with my previous personal experience, I have created Animated GIFs as they can be seen here. <strong><a class="GIFLINK" href="../HTML/GIFPage.html">GIF'S Created</a></strong>
 
           </div>
           
